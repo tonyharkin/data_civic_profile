@@ -74,6 +74,7 @@ file.close()
 
 
 # now I want to read the tsvtest collections 4 records at a time using limit and skip
+# I haven't had time to do this yet
 length = db.tsvtest.count()
 print length
 
